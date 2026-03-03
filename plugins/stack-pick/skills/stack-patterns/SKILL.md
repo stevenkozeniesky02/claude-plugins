@@ -9,7 +9,7 @@ Decision frameworks for choosing the right technology stack quickly and pragmati
 
 ## When to Use This Skill
 
-- Running the `/stack-pick:stack` command to evaluate tech stack options
+- Running the `/stack` command to evaluate tech stack options
 - Deciding whether to build a component or buy/use a managed service
 - Evaluating monolith vs. microservices for a new project
 - Choosing between managed and self-hosted infrastructure as a solo developer

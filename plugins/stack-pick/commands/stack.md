@@ -24,7 +24,7 @@ Check if `.stack/state.json` exists:
 - If it exists and `status` is `"in_progress"`: Read it, display the current phase, and ask the user:
 
   ```
-  Found an in-progress stack session:
+  Found an in-progress stack pick session:
   Current phase: [phase from state]
 
   1. Resume from where we left off
@@ -255,5 +255,5 @@ Stack evaluation complete!
 - Tech decisions: .stack/tech-decisions.md
 
 ## Next Step
-Run `/generate` to scaffold the project using the recommended stack.
+Run `/scaffold` to scaffold the project using the recommended stack.
 ```
