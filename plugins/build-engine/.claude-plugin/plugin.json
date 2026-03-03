@@ -1,0 +1,9 @@
+{
+  "name": "build-engine",
+  "version": "1.0.0",
+  "description": "Implement roadmap milestones feature-by-feature using TDD multi-agent coding with planning, test-first development, implementation, and code review",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
