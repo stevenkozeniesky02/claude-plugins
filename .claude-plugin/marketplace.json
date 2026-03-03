@@ -1,0 +1,34 @@
+{
+  "name": "sk-plugins",
+  "owner": {
+    "name": "Steven Kozeniesky"
+  },
+  "metadata": {
+    "description": "Codebase analysis plugins: multi-agent ideation discovery and roadmap generation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "codebase-ideation",
+      "source": "./plugins/codebase-ideation",
+      "description": "Multi-agent codebase scanner that discovers actionable improvement ideas across Code, Security, Performance, Docs, UX, and dynamically detected categories with competitive market research",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "codebase-roadmap",
+      "source": "./plugins/codebase-roadmap",
+      "description": "Multi-agent roadmap generator that analyzes codebases by domain (backend, frontend, infra, security) with market research to produce phased roadmaps with dependency tracking",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    }
+  ]
+}
