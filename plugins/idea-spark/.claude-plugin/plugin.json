@@ -1,0 +1,9 @@
+{
+  "name": "idea-spark",
+  "version": "1.0.0",
+  "description": "Validate and refine business ideas through multi-agent market research, competitive analysis, revenue modeling, and feasibility assessment",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
