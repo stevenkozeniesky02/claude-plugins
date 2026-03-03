@@ -1,0 +1,9 @@
+{
+  "name": "codebase-ideation",
+  "version": "1.0.0",
+  "description": "Multi-agent codebase scanner that discovers actionable improvement ideas across Code, Security, Performance, Docs, UX, and dynamically detected categories with competitive market research",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}

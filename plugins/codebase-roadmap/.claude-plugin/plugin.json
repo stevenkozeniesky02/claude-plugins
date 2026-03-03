@@ -1,0 +1,9 @@
+{
+  "name": "codebase-roadmap",
+  "version": "1.0.0",
+  "description": "Multi-agent roadmap generator that analyzes codebases by domain (backend, frontend, infra, security) with market research to produce phased roadmaps with dependency tracking",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}

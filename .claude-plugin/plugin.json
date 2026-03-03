@@ -1,0 +1,9 @@
+{
+  "name": "sk-plugins",
+  "version": "1.0.0",
+  "description": "Codebase analysis plugins: ideation discovery and roadmap generation",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
