@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Solo Dev Toolbox: multi-agent plugins for the full startup lifecycle from idea to deployed product",
-    "version": "2.0.0"
+    "version": "3.0.0"
   },
   "plugins": [
     {
@@ -67,6 +67,50 @@
       "name": "build-engine",
       "source": "./plugins/build-engine",
       "description": "Implement roadmap milestones feature-by-feature using TDD multi-agent coding with planning, test-first development, implementation, and code review",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "launch-check",
+      "source": "./plugins/launch-check",
+      "description": "Production readiness audit with 50+ checks across security, ops, reliability, and documentation producing a GO/NO-GO scorecard",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "devops"
+    },
+    {
+      "name": "codebase-autopsy",
+      "source": "./plugins/codebase-autopsy",
+      "description": "Deep tech debt analysis with risk-scored time bombs, complexity mapping, pattern archaeology, and prioritized refactoring recommendations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "cost-forecast",
+      "source": "./plugins/cost-forecast",
+      "description": "Estimate infrastructure and API costs at different user scales with cost cliff identification, optimization recommendations, and burn rate projections",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "devops"
+    },
+    {
+      "name": "onboard-gen",
+      "source": "./plugins/onboard-gen",
+      "description": "Generate contributor documentation and architecture walkthroughs by scanning your codebase for structure, flows, setup requirements, and coding conventions",
       "version": "1.0.0",
       "author": {
         "name": "Steven Kozeniesky"
