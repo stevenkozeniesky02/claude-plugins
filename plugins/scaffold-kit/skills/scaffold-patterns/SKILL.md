@@ -9,7 +9,7 @@ Project structure conventions, CI/CD templates, and configuration best practices
 
 ## When to Use This Skill
 
-- Running the `/scaffold-kit:scaffold` command to bootstrap a new project
+- Running the `/scaffold` command to bootstrap a new project
 - Designing directory structure for a specific tech stack
 - Setting up CI/CD pipelines for a solo developer project
 - Choosing which configuration files to include in a new project
