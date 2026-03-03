@@ -1,0 +1,9 @@
+{
+  "name": "cost-forecast",
+  "version": "1.0.0",
+  "description": "Estimate infrastructure and API costs at different user scales with cost cliff identification, optimization recommendations, and burn rate projections",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
