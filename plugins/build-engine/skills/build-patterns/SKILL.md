@@ -9,7 +9,7 @@ TDD workflow patterns, commit conventions, milestone decomposition strategies, a
 
 ## When to Use This Skill
 
-- Running the `/build-engine:build` command to implement roadmap milestones
+- Running the `/build` command to implement roadmap milestones
 - Following TDD (test-driven development) workflow for any feature implementation
 - Breaking down large milestones into manageable implementation tasks
 - Deciding commit boundaries and message conventions during iterative development

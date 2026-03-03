@@ -12,7 +12,7 @@ You MUST follow these rules exactly. Violating any of them is a failure.
 1. **Never start a milestone without user approval.** Present the plan, wait for go-ahead. Do NOT begin implementation until the user explicitly approves.
 2. **Write output files.** Track all progress in `.build/` files. Read from prior files -- do NOT rely on context window memory.
 3. **Halt on failure.** If any agent fails or tests don't pass, STOP immediately. Present the error and ask the user how to proceed. Do NOT silently continue.
-4. **Use only local agents.** All `subagent_type` references use agents bundled with this plugin. No cross-plugin dependencies.
+4. **Use only local agents.** All `subagent_type` references use agents bundled with this plugin or `general-purpose`. No cross-plugin dependencies.
 5. **Never enter plan mode autonomously.** Do NOT use EnterPlanMode. This command IS the plan -- execute it.
 6. **Tests before implementation.** Always write tests first, verify they fail, then implement. Never write implementation code before tests exist.
 7. **Commit after each milestone.** Never leave uncommitted work between milestones.
@@ -28,10 +28,11 @@ Check if `.build/state.json` exists:
   ```
   Found an in-progress build session:
   Current milestone: [milestone from state]
-  Milestones completed: [X/Y]
+  Tasks completed: [X/Y]
 
-  1. Resume from where we left off
-  2. Start fresh (archives existing session)
+  1. Resume current milestone
+  2. Skip to next milestone
+  3. Start fresh (archives existing session)
   ```
 
 - If it exists and `status` is `"complete"`: Ask whether to archive and start fresh.
@@ -60,11 +61,12 @@ Create `.build/` directory and `state.json`:
   "status": "in_progress",
   "flags": {
     "milestone": null,
-    "resume": false,
-    "has_roadmap": false
+    "resume": false
   },
   "current_milestone": 0,
   "milestones_completed": [],
+  "files_created": [],
+  "files_modified": [],
   "started_at": "ISO_TIMESTAMP",
   "last_updated": "ISO_TIMESTAMP"
 }
