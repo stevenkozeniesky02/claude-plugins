@@ -1,0 +1,9 @@
+{
+  "name": "codebase-autopsy",
+  "version": "1.0.0",
+  "description": "Deep tech debt analysis with risk-scored time bombs, complexity mapping, pattern archaeology, and prioritized refactoring recommendations",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
