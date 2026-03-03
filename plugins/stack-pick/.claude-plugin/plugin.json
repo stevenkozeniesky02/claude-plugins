@@ -1,0 +1,9 @@
+{
+  "name": "stack-pick",
+  "version": "1.0.0",
+  "description": "Research and recommend optimal tech stacks through multi-agent evaluation of backend frameworks, frontend tools, infrastructure, and developer experience",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
