@@ -1,0 +1,9 @@
+{
+  "name": "launch-check",
+  "version": "1.0.0",
+  "description": "Production readiness audit with 50+ checks across security, ops, reliability, and documentation producing a GO/NO-GO scorecard",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
