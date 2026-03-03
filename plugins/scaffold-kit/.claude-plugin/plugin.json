@@ -1,0 +1,9 @@
+{
+  "name": "scaffold-kit",
+  "version": "1.0.0",
+  "description": "Bootstrap project skeletons from tech stack decisions with directory structure, CI/CD pipelines, Docker configs, linting, and documentation scaffolding",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
