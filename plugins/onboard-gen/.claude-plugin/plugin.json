@@ -1,0 +1,9 @@
+{
+  "name": "onboard-gen",
+  "version": "1.0.0",
+  "description": "Generate contributor documentation and architecture walkthroughs by scanning your codebase for structure, flows, setup requirements, and coding conventions",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
