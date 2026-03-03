@@ -9,7 +9,7 @@ Frameworks and techniques for validating business ideas quickly and rigorously.
 
 ## When to Use This Skill
 
-- Running the `/idea-spark:spark` command to validate a new business idea
+- Running the `/spark` command to validate a new business idea
 - Filling out a Lean Canvas for quick idea screening
 - Evaluating competitive moats for a solo developer product
 - Making a go/no-go decision on whether to build something
@@ -48,10 +48,10 @@ Moat types ranked by strength for solo developers:
 
 | Criterion | GO | CAUTION | NO-GO |
 |-----------|----|---------|-------|
-| **Market size (SOM)** | >$10M addressable | $1M-$10M addressable | <$1M addressable |
+| **Market size (SOM)** | > $1M/yr | $100K-$1M/yr | < $100K/yr |
 | **Competition** | Clear gap or underserved niche | Crowded but differentiable | Dominated by well-funded incumbents |
-| **Feasibility** | MVP in <8 weeks solo | MVP in 8-16 weeks solo | MVP >16 weeks or needs team |
-| **LTV:CAC** | >5:1 projected | 3:1-5:1 projected | <3:1 projected |
+| **Feasibility** | MVP < 3 months solo | MVP 3-6 months solo | MVP > 6 months or needs team |
+| **LTV:CAC** | > 3:1 projected | 1.5-3:1 projected | < 1.5:1 projected |
 | **Founder fit** | Deep domain expertise | Adjacent experience | No relevant experience |
 
 ## Common Idea Anti-Patterns

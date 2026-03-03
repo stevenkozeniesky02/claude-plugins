@@ -55,9 +55,9 @@ Create `.spark/` directory and `state.json`:
 
 ## Phase 0: Idea Intake (Conversational)
 
-If the idea was provided as an argument to the command, write it directly into state and proceed.
+If the idea was provided as an argument to the command, write it directly to `.spark/00-idea-brief.md` using the template below, marking unknown fields as "Not yet assessed". Then proceed to Phase 1.
 
-If no idea was provided, use AskUserQuestion to gather the following — ask one question at a time:
+If no idea was provided, use AskUserQuestion to gather the following -- ask one question at a time. Stop asking once you have enough context for the research agents. Do NOT over-question -- 4 questions maximum:
 
 1. **What** — What is the product or service? What problem does it solve?
 2. **Who** — Who is the target customer? Be specific (role, company size, industry).
