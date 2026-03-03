@@ -9,13 +9,14 @@ argument-hint: "[--milestone N] [--resume]"
 
 You MUST follow these rules exactly. Violating any of them is a failure.
 
-1. **Never start a milestone without user approval.** Present the plan, wait for go-ahead. Do NOT begin implementation until the user explicitly approves.
-2. **Write output files.** Track all progress in `.build/` files. Read from prior files -- do NOT rely on context window memory.
-3. **Halt on failure.** If any agent fails or tests don't pass, STOP immediately. Present the error and ask the user how to proceed. Do NOT silently continue.
-4. **Use only local agents.** All `subagent_type` references use agents bundled with this plugin or `general-purpose`. No cross-plugin dependencies.
-5. **Never enter plan mode autonomously.** Do NOT use EnterPlanMode. This command IS the plan -- execute it.
-6. **Tests before implementation.** Always write tests first, verify they fail, then implement. Never write implementation code before tests exist.
-7. **Commit after each milestone.** Never leave uncommitted work between milestones.
+1. **Execute phases in order.** Do NOT skip ahead, reorder, or merge phases.
+2. **Never start a milestone without user approval.** Present the plan, wait for go-ahead. Do NOT begin implementation until the user explicitly approves.
+3. **Write output files.** Track all progress in `.build/` files. Read from prior files -- do NOT rely on context window memory.
+4. **Halt on failure.** If any agent fails or tests don't pass, STOP immediately. Present the error and ask the user how to proceed. Do NOT silently continue.
+5. **Use only local agents.** All `subagent_type` references use agents bundled with this plugin or `general-purpose`. No cross-plugin dependencies.
+6. **Never enter plan mode autonomously.** Do NOT use EnterPlanMode. This command IS the plan -- execute it.
+7. **Tests before implementation.** Always write tests first, verify they fail, then implement. Never write implementation code before tests exist.
+8. **Commit after each milestone.** Never leave uncommitted work between milestones.
 
 ## Pre-flight Checks
 
@@ -285,7 +286,8 @@ After all tasks in the milestone are complete:
 3. **Commit** — Stage all changes and commit:
 
 ```
-git add -A && git commit -m "feat: complete milestone [N] - [milestone name]"
+git add [files from state.json files_created and files_modified] .build/
+git commit -m "feat: complete milestone [N] - [milestone name]"
 ```
 
 4. **Present completion summary** to the user:
@@ -337,4 +339,9 @@ Build complete! All milestones implemented.
 - Milestone plan: .build/01-milestone-plan.md
 
 All work has been committed to the repository.
+
+## Pipeline Complete
+You've completed the full idea-to-implementation pipeline. Your project is built, tested, and committed.
 ```
+
+**Note:** The `build-orchestrator` agent is available for on-demand progress checks at any time during or after the build process. It is not invoked automatically by the command flow.
