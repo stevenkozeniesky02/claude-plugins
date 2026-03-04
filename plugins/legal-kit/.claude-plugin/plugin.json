@@ -1,0 +1,6 @@
+{
+  "name": "legal-kit",
+  "description": "Scans codebases for data handling patterns and generates compliance documentation including privacy policies, terms of service, cookie policies, and GDPR/CCPA compliance checklists. Output is a starting point — not legal advice.",
+  "version": "1.0.0",
+  "category": "business"
+}
