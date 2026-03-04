@@ -1,0 +1,9 @@
+{
+  "name": "price-model",
+  "version": "1.0.0",
+  "description": "Recommend pricing strategy based on costs, competitors, and value metrics with tier design, margin analysis, and competitive positioning",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
