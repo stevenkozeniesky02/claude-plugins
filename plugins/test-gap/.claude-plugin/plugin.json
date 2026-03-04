@@ -1,0 +1,9 @@
+{
+  "name": "test-gap",
+  "version": "1.0.0",
+  "description": "Find untested critical paths and generate test strategies with risk-ranked coverage maps and optional skeleton test files",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
