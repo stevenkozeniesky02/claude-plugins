@@ -1,0 +1,9 @@
+{
+  "name": "ship-page",
+  "version": "1.0.0",
+  "description": "Generate landing page copy and marketing content from your codebase with feature extraction, benefit mapping, and conversion-optimized copywriting",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
