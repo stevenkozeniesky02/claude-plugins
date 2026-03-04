@@ -1,0 +1,9 @@
+{
+  "name": "pitch-craft",
+  "version": "1.0.0",
+  "description": "Generate investor-ready pitch materials including deck outlines, one-pagers, elevator pitches, and investor FAQ from business case and codebase analysis",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
