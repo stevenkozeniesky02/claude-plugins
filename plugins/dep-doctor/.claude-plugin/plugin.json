@@ -1,0 +1,9 @@
+{
+  "name": "dep-doctor",
+  "version": "1.0.0",
+  "description": "Dependency health audit with CVE scanning, freshness checks, license auditing, and bloat detection producing actionable upgrade/replace/remove recommendations",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
