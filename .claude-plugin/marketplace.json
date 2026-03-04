@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Solo Dev Toolbox: multi-agent plugins for the full startup lifecycle from idea to deployed product",
-    "version": "4.0.0"
+    "version": "5.0.0"
   },
   "plugins": [
     {
@@ -161,6 +161,50 @@
       },
       "license": "MIT",
       "category": "devops"
+    },
+    {
+      "name": "pitch-craft",
+      "source": "./plugins/pitch-craft",
+      "description": "Generate investor pitch decks and one-pagers from codebase and business context with narrative building, market sizing, financial modeling, and slide writing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "business"
+    },
+    {
+      "name": "price-model",
+      "source": "./plugins/price-model",
+      "description": "Design pricing strategies through competitive analysis, unit economics modeling, and value metric evaluation with specific tier recommendations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "business"
+    },
+    {
+      "name": "ship-page",
+      "source": "./plugins/ship-page",
+      "description": "Generate landing pages from codebase features with benefit mapping, conversion copywriting, and optional production-ready responsive HTML",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "business"
+    },
+    {
+      "name": "legal-kit",
+      "source": "./plugins/legal-kit",
+      "description": "Generate compliance documentation (privacy policy, terms, cookies) from codebase data flow analysis with GDPR/CCPA gap identification — not legal advice",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "business"
     }
   ]
 }
