@@ -57,8 +57,22 @@ Each plugin builds on the last. No copy-pasting between tools. No context lost b
 
 ## Quick Start
 
+### Option A: Interactive Pipeline with solodev (Recommended)
+
+[**solodev**](https://github.com/stevenkozeniesky02/solodev) wraps all 18 plugins in an interactive TUI with persistent context — every plugin run builds on the last, so by step 15, Claude knows your entire product history.
+
 ```bash
-# Install the entire toolbox
+npm install -g solodev
+solodev
+```
+
+No API keys. No flags to remember. Just a visual pipeline that guides you from idea to shipped product.
+
+### Option B: Direct Plugin Installation
+
+Install the plugins directly into Claude Code for use as slash commands:
+
+```bash
 claude mcp add sk-plugins -- npx @anthropic-ai/claude-code-plugins \
   --url https://github.com/stevenkozeniesky02/claude-plugins
 
@@ -745,3 +759,8 @@ MIT
 ## Author
 
 Steven Kozeniesky
+
+## Links
+
+- [solodev](https://github.com/stevenkozeniesky02/solodev) — Interactive CLI that orchestrates all 18 plugins with persistent context
+- [Claude Code](https://claude.ai/code) — The AI engine underneath
