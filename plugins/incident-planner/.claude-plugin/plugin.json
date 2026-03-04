@@ -1,0 +1,9 @@
+{
+  "name": "incident-planner",
+  "version": "1.0.0",
+  "description": "Generate runbooks and incident response playbooks from architecture analysis with failure mode identification and severity classification",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
