@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Solo Dev Toolbox: multi-agent plugins for the full startup lifecycle from idea to deployed product",
-    "version": "3.0.0"
+    "version": "4.0.0"
   },
   "plugins": [
     {
@@ -117,6 +117,50 @@
       },
       "license": "MIT",
       "category": "development"
+    },
+    {
+      "name": "test-gap",
+      "source": "./plugins/test-gap",
+      "description": "Find untested critical paths and generate test strategies with risk-ranked coverage maps and optional skeleton test files",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "dep-doctor",
+      "source": "./plugins/dep-doctor",
+      "description": "Dependency health audit with CVE scanning, freshness checks, license auditing, and bloat detection producing actionable upgrade/replace/remove recommendations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "incident-planner",
+      "source": "./plugins/incident-planner",
+      "description": "Generate runbooks and incident response playbooks from architecture analysis with failure mode identification and severity classification",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "devops"
+    },
+    {
+      "name": "scale-sim",
+      "source": "./plugins/scale-sim",
+      "description": "Identify scaling bottlenecks before they hit production with bottleneck hunting, database profiling, queue analysis, and capacity modeling at 10x/100x/1000x",
+      "version": "1.0.0",
+      "author": {
+        "name": "Steven Kozeniesky"
+      },
+      "license": "MIT",
+      "category": "devops"
     }
   ]
 }
