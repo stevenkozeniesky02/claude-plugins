@@ -1,0 +1,9 @@
+{
+  "name": "scale-sim",
+  "version": "1.0.0",
+  "description": "Identify scaling bottlenecks before they hit production with bottleneck hunting, database profiling, queue analysis, and capacity modeling at 10x/100x/1000x",
+  "author": {
+    "name": "Steven Kozeniesky"
+  },
+  "license": "MIT"
+}
